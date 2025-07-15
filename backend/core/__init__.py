@@ -1,0 +1,1 @@
+# Este archivo está intencionalmente vacío para inicializar el módulo.
