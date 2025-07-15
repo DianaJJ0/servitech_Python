@@ -93,6 +93,7 @@ cd servitech_Python
 - Todas las rutas de recursos en el frontend deben ser relativas (`./assets/...`, `./componentes/...`) para compatibilidad con servidores estáticos.
 - Los componentes HTML se cargan dinámicamente con `fetch` para mantener DRY y facilitar el mantenimiento.
 - El backend y frontend pueden ejecutarse de forma independiente para facilitar el desarrollo y pruebas.
+- **Importante:** No dejes carpetas de vistas (por ejemplo, `views/` con archivos `.ejs`, `.html`, etc.) en la raíz del proyecto ni dentro del backend. Todo el contenido visual y estático debe estar en la carpeta `frontend/`.
 - Para producción, se recomienda servir los archivos estáticos desde un CDN o servidor optimizado.
 
 ## Autores y contacto
