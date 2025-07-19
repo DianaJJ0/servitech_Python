@@ -75,6 +75,8 @@ cd servitech_Python
   ```
 - Acceder a la app en: [http://localhost:8000/index.html](http://localhost:8000/index.html)
 
+> **Nota:** No es necesario activar el entorno virtual (venv) para servir el frontend. Solo asegúrate de estar en la carpeta `frontend` antes de ejecutar el comando.
+
 ## Endpoints principales (API REST)
 - `POST /usuarios/api/registro/` — Registro de usuario
 - `POST /usuarios/api/login/` — Login de usuario (retorna token)
